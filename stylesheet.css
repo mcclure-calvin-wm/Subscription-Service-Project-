@@ -1,0 +1,150 @@
+body{
+    /*background-color: #C7AC92;*/
+    background: url("http://hdcoolwallpapers.com/wp-content/uploads/2014/09/Hd-Ocean-Wallpapers-7.jpg") top no-repeat fixed;
+    z-index: -9000;
+}
+#sun {
+    width: 10em;
+}
+
+#logo-div {
+    background: #ffd88a; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#ffd88a 75%, rgba(255, 255, 255, 0)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ffd88a 75%, rgba(255, 255, 255, 0)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ffd88a 75%, rgba(255, 255, 255, 0)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ffd88a 75%, rgba(255, 255, 255, 0)); /* Standard syntax (must be last) */
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+#background-texture {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .5;
+    z-index: -2;
+
+}
+
+#main-contain {
+    background-color: #ffe2b5;
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    top: 0;
+    height: 100em;
+    z-index: -2;
+    border-right: solid;
+    border-left: solid;
+}
+
+#title-div {
+    font-family: 'Handlee', cursive;
+    position: fixed;
+    left: 17%;
+    top: 3%;
+    font-size: large;
+}
+
+#nav-div {
+    font-family: 'Handlee', cursive;
+    position: fixed;
+    left: 60%;
+    top: 5%;
+    font-size: large;
+    width: 20%;
+}
+
+#service {
+    float: left;
+}
+
+#sign-in {
+    position: absolute;
+    margin-left: 35%;
+}
+
+#admin {
+    margin-left: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.a-nav {
+    font-size: 1.4em;
+    margin-top: 6.5%;
+
+}
+
+.a-nav:hover{
+    text-shadow: 1px 1px #ffffff;
+}
+#title-h1:hover {
+    text-shadow: 2px 2px #ffffff;
+}
+
+#welcome{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 4em;
+    float: right;
+    padding-right: 0em;
+}
+
+#welcome-sun {
+    width: 10%;
+    position: absolute;
+    right: 38em;
+    top: 12em;
+}
+
+#welcome-text {
+    position: absolute;
+    top: 18em;
+    float: left;
+    width: 50em;
+    margin-left: 0;
+}
+
+
+
+#main {
+    margin-top: 14%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#Signin {
+    position: absolute;
+    left: 25em;
+    top: 15em;
+}
+
+#form123 {
+    position: absolute;
+    top: 15em;
+    left: 25em;
+}
+
+#login-form, #buy {
+    position: relative;
+    top: 13%;
+}
+
+#center-table {
+    position: absolute;
+    top: 5%;
+    left: -6%;
+}
